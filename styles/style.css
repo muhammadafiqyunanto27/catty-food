@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --font-judul: "Manrope", sans-serif;
+  --font-subjudul: "Manrope", sans-serif;
+}
+
+/* Tampilan Mobile */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container {
+  padding: 30px;
+  margin: 0px;
+}
+
+header {
+  padding: 10px 0px;
+  background-color: aqua;
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(239, 194, 16);
+  border-radius: 7px;
+  border: none;
+  color: white;
+}
+
+header .container .hero > img {
+  width: 30%;
+}
+header .container > img {
+  width: 100%;
+  padding: 30px 0px 0px 0px;
+}
+
+header .container .hero > h3 {
+  padding: 0px 0px 30px 0px;
+  font-family: var(--font-judul);
+}
+header .container .hero > p {
+  padding: 0px 0px 30px 0px;
+  font-family: var(--font-judul);
+}
+
+.testimoni {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.testimoni .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.testimoni > h5 {
+  font-family: var(--font-subjudul);
+  color: rgb(255, 166, 0);
+}
+
+.testimoni > h4 {
+  font-family: var(--font-subjudul);
+}
+
+.testimoni .container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 10px;
+  padding: 30px 10px;
+  gap: 15px;
+  background-color: beige;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(201, 201, 201, 1);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(201, 201, 201, 1);
+  box-shadow: 0px 0px 2px 0px rgba(201, 201, 201, 1);
+}
+
+.testimoni .container .card > h3 {
+  font-family: var(--font-subjudul);
+}
+
+.testimoni .container .card > h5 {
+  font-family: var(--font-subjudul);
+  color: rgba(0, 0, 0, 0.441);
+}
+
+.testimoni .container .card > h4 {
+  font-family: var(--font-subjudul);
+}
+
+.testimoni .container .card > p {
+  font-family: var(--font-subjudul);
+}
+
+.fakta {
+  background-color: aqua;
+}
+
+.fakta .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fakta .container .wrapp {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+}
+
+.fakta .container .wrapp > img {
+  width: 90%;
+}
+
+.fakta .container .wrapp > h3 {
+  font-family: var(--font-subjudul);
+}
+.fakta .container .wrapp > p {
+  font-family: var(--font-subjudul);
+}
+.fakta .container .wrapp ul li {
+  font-family: var(--font-subjudul);
+}
+
+.fakta .container .wrapp ul {
+    margin: 0px 0px 0px 15px;
+}
+
+.fakta .container .wrapp > h5 {
+  color: rgb(255, 166, 0);
+  font-family: var(--font-subjudul);
+}
+
+.keuntungan .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.keuntungan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.keuntungan .container > h5 {
+  color: rgb(255, 166, 0);
+  font-family: var(--font-subjudul);
+}
+
+.keuntungan .container > h3 {
+  font-family: var(--font-subjudul);
+}
+.keuntungan .container > p {
+  font-family: var(--font-subjudul);
+}
+
+.kerugian {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: aquamarine;
+}
+
+.kerugian .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+  background-color: aquamarine;
+}
+
+.kerugian .container > h5 {
+  color: rgb(255, 166, 0);
+  font-family: var(--font-subjudul);
+}
+
+.kerugian .container > h3 {
+  font-family: var(--font-subjudul);
+}
+.kerugian .container > p {
+  font-family: var(--font-subjudul);
+}
+
+.hubungi-saya {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hubungi-saya .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.hubungi-saya .container > p {
+  font-family: var(--font-subjudul);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+footer p {
+  font-family: var(--font-subjudul);
+}
+
+/* Tampilan Tablet*/
+
+@media (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  header .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  header .container .hero {
+    width: 50%;
+  }
+
+  header .container .hero {
+    text-align: left;
+  }
+
+  header .container > img {
+    width: 40%;
+  }
+
+  .testimoni .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .testimoni .container .card {
+    padding: 20px 30px;
+  }
+
+  .fakta .container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .keuntungan {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .keuntungan .container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .kerugian {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .kerugian .container {
+    text-align: left;
+    align-items: start;
+  }
+
+  .hubungi-saya {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    /* align-items: start; */
+    /* justify-content: start; */
+  }
+
+  .hubungi-saya .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: startx;
+  }
+
+  .wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Tampilan Laptop*/
+
+@media (min-width: 1024px) {
+}
+
+/* Tampilan Dekstop */
+
+@media (min-width: 1280px) {
+}
